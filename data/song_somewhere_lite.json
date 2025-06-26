@@ -1,0 +1,17 @@
+{
+    "title": "Somewhere",
+    "youtube_id": "7W0m6tDgoag",
+    "local_video_url":"",
+    "today_expression": {
+        "ja": "きっと どこかに",
+        "ko": "분명 어딘가에",
+        "words": [
+            {"ja": "きっと", "ko": "분명"},
+            {"ja": "どこか", "ko": "어딘가"}
+        ]
+    },
+    "quiz": [
+        {"question": "「きっと」는 어떤 의미일까요?", "options": ["절대로", "분명", "가끔"], "answer": "분명"},
+        {"question": "「どこか」는?", "options": ["어디선가", "누군가", "무언가"], "answer": "어디선가"}
+    ]
+} 

@@ -1,0 +1,17 @@
+{
+    "title": "Catch You Catch Me",
+    "youtube_id": "5uZr3JWYdy8",
+    "local_video_url":"",
+    "today_expression": {
+        "ja": "ぜったい つかまえて",
+        "ko": "꼭 잡고 말 거야",
+        "words": [
+            {"ja": "ぜったい", "ko": "꼭"},
+            {"ja": "つかまえる", "ko": "잡다"}
+        ]
+    },
+    "quiz": [
+        {"question": "「ぜったい」는 무슨 뜻일까요?", "options": ["반드시", "조금", "자주"], "answer": "반드시"},
+        {"question": "「つかまえる」는?", "options": ["잊다", "잡다", "보내다"], "answer": "잡다"}
+    ]
+}

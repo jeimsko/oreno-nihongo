@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>오레노 니혼고 - Breeze</title>
+  <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+  <h1>오레노 니혼고 - Breeze</h1>
+
+    <!-- 🎵 곡 리스트 -->
+  <div id="song-list">
+    <h3>🎵 곡 선택</h3>
+    <ul id="song-items"></ul>
+  </div>
+  <!-- YouTube 영상 -->
+  <div id="youtube"></div>
+
+  <!-- 가사 출력 영역 -->
+  <div id="lyrics-box">
+    <!-- renderLyrics 함수가 이곳에 가사 줄을 렌더링합니다 -->
+  </div>
+
+  <div id="expression-box">
+    <h2>오늘의 표현</h2>
+    <p id="expression-ja"></p>
+    <p id="expression-ko"></p>
+    <button onclick="playTTS()">🔊 발음 듣기</button>
+  </div>
+
+  <!-- 단어 해석 리스트 -->
+  <div id="word-list">
+    <h3>📘 단어 해석</h3>
+    <ul id="word-items"></ul>
+  </div>
+
+  <div id="quiz-box">
+   <!-- JS로 퀴즈 생성됨 -->
+  </div>
+
+  <!-- 단어장 PDF 다운로드 -->
+  <div id="pdf-download">
+    <h3>📥 단어장 저장하기</h3>
+    <button id="pdf-btn" onclick="downloadPDF()">🔒 후원자 전용 PDF</button>
+  </div>
+
+    <!-- 후원자 인증 -->
+  <!-- <div disabled=true id="supporter-box">
+    <button  onclick="authenticateSupporter()">🔐 후원자 인증</button>
+    <p id="support-status">❌ 인증되지 않음</p>
+  </div> -->
+
+
+
+  <!-- JS 로직 -->
+  <script src="/static/js/main.js"></script>
+</body>
+</html>
+
